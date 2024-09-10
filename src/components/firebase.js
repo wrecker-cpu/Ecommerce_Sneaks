@@ -4,12 +4,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAsdeZsuY2CjOVsDXMjX3__4yt4PBWqZN4",
-  authDomain: "login-auth-788f2.firebaseapp.com",
-  projectId: "login-auth-788f2",
-  storageBucket: "login-auth-788f2.appspot.com",
-  messagingSenderId: "948308228065",
-  appId: "1:948308228065:web:5efdbfec8c454896fa04a0"
+  apiKey: process.env.NEXT_PUBLIC_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_APP_ID,
 };
 
 
