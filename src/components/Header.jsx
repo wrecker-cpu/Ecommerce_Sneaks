@@ -18,7 +18,9 @@ export default function Header() {
   return (
     <div className="header-container">
       <div>
-        <Link to='/'><img src={imageSrc} alt="logo" className="logo-img"/></Link>
+        <Link to='/'><p className="font-semibold text-[30px]">
+        K<span className="text-[20px] font-extrabold">J</span>
+      </p></Link>
         
       </div>
       <div className="gender-container">
