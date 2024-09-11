@@ -18,9 +18,11 @@ export default function Header() {
   return (
     <div className="header-container">
       <div>
+        <Link className="logo-link-button" to='/'>
         <p className="logo">
         K<span className="span-logo">J</span>
       </p>
+      </Link>
         
       </div>
       <div className="gender-container">
