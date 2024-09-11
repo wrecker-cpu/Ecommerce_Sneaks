@@ -18,8 +18,8 @@ export default function Header() {
   return (
     <div className="header-container">
       <div>
-        <p className="font-semibold text-[30px]">
-        K<span className="text-[20px] font-extrabold">J</span>
+        <p className="logo">
+        K<span className="span-logo">J</span>
       </p>
         
       </div>
