@@ -31,7 +31,7 @@ export default function ConfirmModal({ showModal }) {
         <img src={approval} alt="approval pic" />
       </div>
 
-      <p>Look over the new collection</p>
+      <p className="wth">Look over the new collection</p>
 
       <p className="view-button">Thank You</p>
 
